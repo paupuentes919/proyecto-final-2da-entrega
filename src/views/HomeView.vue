@@ -6,6 +6,8 @@
             :key="product.id"
             :product="product"
             @agregar-al-carrito="actualizarCarrito"
+
+            
         /> 
   </div>
 </template>
